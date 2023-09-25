@@ -5,7 +5,7 @@ from .views import spiski
 
 
 urlpatterns = [
-    path('', views.index, name='home'),
+    path('', views.spiski, name='home'),
     path('python', views.product, name='product'),
     path('django', views.django_product, name='django'),
     path('html', views.HTML_product, name='html'),
